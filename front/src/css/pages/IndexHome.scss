@@ -1,0 +1,37 @@
+.header-container {
+  background-color: $template;
+}
+
+.page-container {
+  padding: 2.2rem 0 !important;
+}
+
+.footer-btn {
+  position: absolute;
+  margin-bottom: 80px;
+}
+
+.q-field__control {
+  border: 0.5px solid $border-input;
+}
+
+.q-field__native {
+  color: $white;
+}
+
+.badge-task {
+  color: $primary;
+}
+
+.badge-text {
+  font-size: 0.75rem;
+  color: $white;
+}
+
+.q-radio__inner {
+  color: $white;
+}
+
+.categorie-label {
+  color: red;
+}

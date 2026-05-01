@@ -1,0 +1,56 @@
+.form-container {
+  margin-top: 30px;
+
+  .q-field__control {
+    border: 0.5px solid $border-input;
+  }
+
+  .q-field__native {
+    color: $white;
+  }
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(#ccc, 0.1);
+}
+.divider::before {
+  margin-right: 0.25em;
+}
+.divider::after {
+  margin-left: 0.25em;
+}
+
+.btn-login-google span {
+  color: $white;
+}
+
+.btn-login-google .q-icon {
+  background-image: url("/images/google.svg");
+  background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+  background-position: center center; /* Centraliza a imagem de fundo no elemento */
+}
+
+.register-link {
+  text-decoration: none;
+  color: $primary;
+}
+
+.register-container {
+  margin-top: 150px;
+}
+
+.btn-register {
+  padding: 0;
+  .q-btn__content {
+    margin-bottom: 2px;
+    margin-left: 5px;
+  }
+}
